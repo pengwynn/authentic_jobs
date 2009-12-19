@@ -38,6 +38,14 @@ class AuthenticJobs
     mashup(self.class.get("/", :query => method_params('aj.jobs.getLocations'))).locations.location
   end
   
+  # category: The id of a job category to limit to. See aj.categories.getList
+  # type: The id of a job type to limit to. See aj.types.getList
+  # sort: Accepted values are: date-posted-desc (the default) and date-posted-asc
+  # company: Free-text matching against company names. Suggested values are the ids from aj.jobs.getCompanies
+  # location: Free-text matching against company location names. Suggested values are the ids from aj.jobs.getLocation
+  # keywords: Keywords to look for in the title or description of the job posting. Separate multiple keywords with commas. Multiple keywords will be treated as an OR
+  # page: The page of listings to return. Defaults to 1.
+  # perpage: The number of listings per page. The default value is 10. The maximum value is 100.
   def search(options={})
     mashup(self.class.get("/", :query => method_params('aj.jobs.search', options))).listings.listing
   end
