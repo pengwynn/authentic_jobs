@@ -1,0 +1,513 @@
+{
+    "locations": {
+        "location": [{
+            "id": "anywhereinusa",
+            "name": "Anywhere in USA"
+        },
+        {
+            "id": "anywheresaltlakecity",
+            "name": "Anywhere \/ Salt Lake City"
+        },
+        {
+            "id": "austintxus",
+            "name": "Austin, Texas",
+            "city": "Austin, Texas",
+            "country": "US",
+            "lat": "30.2672",
+            "lng": "-97.7431",
+            "state": "TX"
+        },
+        {
+            "id": "belfastgb",
+            "name": "Belfast, Northern Ireland, UK",
+            "city": "Belfast, Northern Ireland, UK",
+            "country": "GB",
+            "lat": "54.5833",
+            "lng": "-5.93333"
+        },
+        {
+            "id": "bostonca",
+            "name": "Boston area",
+            "city": "Boston area",
+            "country": "CA",
+            "lat": "42.9834",
+            "lng": "-80.2664"
+        },
+        {
+            "id": "bostonmaus",
+            "name": "Boston, MA",
+            "city": "Boston, MA",
+            "country": "US",
+            "lat": "42.3584",
+            "lng": "-71.0598",
+            "state": "MA"
+        },
+        {
+            "id": "bouldercous",
+            "name": "Boulder, Colorado",
+            "city": "Boulder, Colorado",
+            "country": "US",
+            "lat": "40.015",
+            "lng": "-105.271",
+            "state": "CO"
+        },
+        {
+            "id": "brooklynbotanicgardenresearchcenternyus",
+            "name": "Brooklyn , New York",
+            "city": "Brooklyn , New York",
+            "country": "US",
+            "lat": "41.2265",
+            "lng": "-73.7851",
+            "state": "NY"
+        },
+        {
+            "id": "campbellriverca",
+            "name": "Campbell, CA",
+            "city": "Campbell, CA",
+            "country": "CA",
+            "lat": "50.0163",
+            "lng": "-125.245"
+        },
+        {
+            "id": "charlottevtus",
+            "name": "Charlotte, VT",
+            "city": "Charlotte, VT",
+            "country": "US",
+            "lat": "44.3098",
+            "lng": "-73.261",
+            "state": "VT"
+        },
+        {
+            "id": "chattanoogatnus",
+            "name": "Chattanooga, TN",
+            "city": "Chattanooga, TN",
+            "country": "US",
+            "lat": "35.0456",
+            "lng": "-85.3097",
+            "state": "TN"
+        },
+        {
+            "id": "chicagoilldowntown",
+            "name": "Chicago, ILL. (downtown)"
+        },
+        {
+            "id": "chicagoilus",
+            "name": "Chicago, IL",
+            "city": "Chicago, IL",
+            "country": "US",
+            "lat": "41.85",
+            "lng": "-87.6501",
+            "state": "IL"
+        },
+        {
+            "id": "collegestationtxus",
+            "name": "College Station, TX",
+            "city": "College Station, TX",
+            "country": "US",
+            "lat": "30.628",
+            "lng": "-96.3344",
+            "state": "TX"
+        },
+        {
+            "id": "denvercous",
+            "name": "Anywhere",
+            "city": "Anywhere",
+            "country": "US",
+            "lat": "39.7392",
+            "lng": "-104.985",
+            "state": "CO"
+        },
+        {
+            "id": "evanstonilus",
+            "name": "Evanston, IL",
+            "city": "Evanston, IL",
+            "country": "US",
+            "lat": "42.0411",
+            "lng": "-87.6901",
+            "state": "IL"
+        },
+        {
+            "id": "fanareahistoricdistrictvaus",
+            "name": "Richmond, VA area",
+            "city": "Richmond, VA area",
+            "country": "US",
+            "lat": "37.5474",
+            "lng": "-77.4641",
+            "state": "VA"
+        },
+        {
+            "id": "ithacanyus",
+            "name": "Ithaca, NY",
+            "city": "Ithaca, NY",
+            "country": "US",
+            "lat": "42.4406",
+            "lng": "-76.4966",
+            "state": "NY"
+        },
+        {
+            "id": "jacksonmius",
+            "name": "Jackson, MI",
+            "city": "Jackson, MI",
+            "country": "US",
+            "lat": "42.2459",
+            "lng": "-84.4013",
+            "state": "MI"
+        },
+        {
+            "id": "jacksonvilleflus",
+            "name": "Jacksonville, FL",
+            "city": "Jacksonville, FL",
+            "country": "US",
+            "lat": "30.3322",
+            "lng": "-81.6556",
+            "state": "FL"
+        },
+        {
+            "id": "jerseychannelislands",
+            "name": "Jersey, Channel Islands",
+            "city": "Jersey, Channel Islands",
+            "country": "",
+            "lat": "49.1859",
+            "lng": "-2.11006"
+        },
+        {
+            "id": "knightsinnlosangelescacaus",
+            "name": "Los Angeles.CA",
+            "city": "Los Angeles.CA",
+            "country": "US",
+            "lat": "34.066",
+            "lng": "-118.254",
+            "state": "CA"
+        },
+        {
+            "id": "knoxvilletnus",
+            "name": "Knoxville, TN",
+            "city": "Knoxville, TN",
+            "country": "US",
+            "lat": "35.9606",
+            "lng": "-83.9207",
+            "state": "TN"
+        },
+        {
+            "id": "laquintacaus",
+            "name": "La Quinta, CA",
+            "city": "La Quinta, CA",
+            "country": "US",
+            "lat": "33.6634",
+            "lng": "-116.31",
+            "state": "CA"
+        },
+        {
+            "id": "lewesdeus",
+            "name": "Lewes, Delaware",
+            "city": "Lewes, Delaware",
+            "country": "US",
+            "lat": "38.7746",
+            "lng": "-75.1394",
+            "state": "DE"
+        },
+        {
+            "id": "lincolnneus",
+            "name": "Lincoln, NE",
+            "city": "Lincoln, NE",
+            "country": "US",
+            "lat": "40.8",
+            "lng": "-96.667",
+            "state": "NE"
+        },
+        {
+            "id": "londongb",
+            "name": "London, UK",
+            "city": "London, UK",
+            "country": "GB",
+            "lat": "51.5084",
+            "lng": "-0.125533"
+        },
+        {
+            "id": "londonse13er",
+            "name": "London, SE1 3ER"
+        },
+        {
+            "id": "losangelescaus",
+            "name": "Los Angeles",
+            "city": "Los Angeles",
+            "country": "US",
+            "lat": "34.0522",
+            "lng": "-118.244",
+            "state": "CA"
+        },
+        {
+            "id": "maidenheadgb",
+            "name": "Maidenhead, UK",
+            "city": "Maidenhead, UK",
+            "country": "GB",
+            "lat": "51.5228",
+            "lng": "-0.719862"
+        },
+        {
+            "id": "menloparkcaus",
+            "name": "Menlo Park, CA",
+            "city": "Menlo Park, CA",
+            "country": "US",
+            "lat": "37.4538",
+            "lng": "-122.182",
+            "state": "CA"
+        },
+        {
+            "id": "miamiflorus",
+            "name": "Miami, FL or U.S"
+        },
+        {
+            "id": "middleburyvttelecommuterswelcometoapply",
+            "name": "Middlebury, VT (telecommuters welcome to apply)"
+        },
+        {
+            "id": "minneapolismnus",
+            "name": "Minneapolis, MN",
+            "city": "Minneapolis, MN",
+            "country": "US",
+            "lat": "44.98",
+            "lng": "-93.2638",
+            "state": "MN"
+        },
+        {
+            "id": "mountainviewcaus",
+            "name": "Mountain View, CA",
+            "city": "Mountain View, CA",
+            "country": "US",
+            "lat": "37.3861",
+            "lng": "-122.084",
+            "state": "CA"
+        },
+        {
+            "id": "nashvilletnus",
+            "name": "Nashville, TN",
+            "city": "Nashville, TN",
+            "country": "US",
+            "lat": "36.1659",
+            "lng": "-86.7844",
+            "state": "TN"
+        },
+        {
+            "id": "newyorknyorsanfranciscoca",
+            "name": "New York, NY or San Francisco, CA"
+        },
+        {
+            "id": "newyorknyus",
+            "name": "New York, NY",
+            "city": "New York, NY",
+            "country": "US",
+            "lat": "40.7143",
+            "lng": "-74.006",
+            "state": "NY"
+        },
+        {
+            "id": "newzealandnz",
+            "name": "New Zealand",
+            "city": "New Zealand",
+            "country": "NZ",
+            "lat": "-42",
+            "lng": "174"
+        },
+        {
+            "id": "northernvirginiaregionalparkvaus",
+            "name": "Northern Virginia",
+            "city": "Northern Virginia",
+            "country": "US",
+            "lat": "39.0465",
+            "lng": "-77.2997",
+            "state": "VA"
+        },
+        {
+            "id": "oaklandcaus",
+            "name": "Oakland, CA",
+            "city": "Oakland, CA",
+            "country": "US",
+            "lat": "37.8044",
+            "lng": "-122.271",
+            "state": "CA"
+        },
+        {
+            "id": "olatheksus",
+            "name": "Olathe, KS",
+            "city": "Olathe, KS",
+            "country": "US",
+            "lat": "38.8814",
+            "lng": "-94.8191",
+            "state": "KS"
+        },
+        {
+            "id": "orlandoflus",
+            "name": "Orlando, Florida",
+            "city": "Orlando, Florida",
+            "country": "US",
+            "lat": "28.5383",
+            "lng": "-81.3792",
+            "state": "FL"
+        },
+        {
+            "id": "pacifictimezone",
+            "name": "Pacific Time Zone"
+        },
+        {
+            "id": "paloaltocaus",
+            "name": "Palo Alto, CA",
+            "city": "Palo Alto, CA",
+            "country": "US",
+            "lat": "37.4419",
+            "lng": "-122.143",
+            "state": "CA"
+        },
+        {
+            "id": "philadelphiapaus",
+            "name": "Philadelphia, PA",
+            "city": "Philadelphia, PA",
+            "country": "US",
+            "lat": "39.9523",
+            "lng": "-75.1638",
+            "state": "PA"
+        },
+        {
+            "id": "pittsburghpaus",
+            "name": "Pittsburgh, PA",
+            "city": "Pittsburgh, PA",
+            "country": "US",
+            "lat": "40.4406",
+            "lng": "-79.9959",
+            "state": "PA"
+        },
+        {
+            "id": "portlandororsanfranciscoca",
+            "name": "Portland, OR or San Francisco, CA"
+        },
+        {
+            "id": "portlandorus",
+            "name": "Portland, OR",
+            "city": "Portland, OR",
+            "country": "US",
+            "lat": "45.5235",
+            "lng": "-122.676",
+            "state": "OR"
+        },
+        {
+            "id": "provoutus",
+            "name": "Provo, UT",
+            "city": "Provo, UT",
+            "country": "US",
+            "lat": "40.2338",
+            "lng": "-111.659",
+            "state": "UT"
+        },
+        {
+            "id": "redwoodcitycaus",
+            "name": "Redwood City, CA",
+            "city": "Redwood City, CA",
+            "country": "US",
+            "lat": "37.4852",
+            "lng": "-122.236",
+            "state": "CA"
+        },
+        {
+            "id": "saltlakecityutus",
+            "name": "Salt Lake City, UT",
+            "city": "Salt Lake City, UT",
+            "country": "US",
+            "lat": "40.7608",
+            "lng": "-111.891",
+            "state": "UT"
+        },
+        {
+            "id": "sanfranciscocaus",
+            "name": "San Francisco, CA",
+            "city": "San Francisco, CA",
+            "country": "US",
+            "lat": "37.7749",
+            "lng": "-122.419",
+            "state": "CA"
+        },
+        {
+            "id": "santamonicacaus",
+            "name": "Santa Monica, CA",
+            "city": "Santa Monica, CA",
+            "country": "US",
+            "lat": "34.0195",
+            "lng": "-118.491",
+            "state": "CA"
+        },
+        {
+            "id": "santamonicaventura",
+            "name": "Santa Monica, Ventura"
+        },
+        {
+            "id": "scottsvalleycaus",
+            "name": "Scotts Valley, CA",
+            "city": "Scotts Valley, CA",
+            "country": "US",
+            "lat": "37.0511",
+            "lng": "-122.015",
+            "state": "CA"
+        },
+        {
+            "id": "studiocitycaus",
+            "name": "Studio City, Ca",
+            "city": "Studio City, Ca",
+            "country": "US",
+            "lat": "34.1486",
+            "lng": "-118.396",
+            "state": "CA"
+        },
+        {
+            "id": "sunnyvalecaus",
+            "name": "Sunnyvale, CA",
+            "city": "Sunnyvale, CA",
+            "country": "US",
+            "lat": "37.3688",
+            "lng": "-122.036",
+            "state": "CA"
+        },
+        {
+            "id": "torontoca",
+            "name": "Toronto",
+            "city": "Toronto",
+            "country": "CA",
+            "lat": "43.7001",
+            "lng": "-79.4163"
+        },
+        {
+            "id": "troynyus",
+            "name": "Troy, NY",
+            "city": "Troy, NY",
+            "country": "US",
+            "lat": "42.7284",
+            "lng": "-73.6918",
+            "state": "NY"
+        },
+        {
+            "id": "tylertxus",
+            "name": "Tyler, TX",
+            "city": "Tyler, TX",
+            "country": "US",
+            "lat": "32.3513",
+            "lng": "-95.3011",
+            "state": "TX"
+        },
+        {
+            "id": "washingtondcbaltimorecolumbiamd",
+            "name": "Washington DC\/Baltimore (Columbia, MD)"
+        },
+        {
+            "id": "washingtondcus",
+            "name": "Washington, DC",
+            "city": "Washington, DC",
+            "country": "US",
+            "lat": "38.8951",
+            "lng": "-77.0364",
+            "state": "DC"
+        },
+        {
+            "id": "whereveryougetintothezone",
+            "name": "Wherever you get into the Zone"
+        }]
+    },
+    "stat": "ok"
+}

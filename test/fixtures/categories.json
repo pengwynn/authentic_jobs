@@ -1,0 +1,29 @@
+{
+    "categories": {
+        "category": [{
+            "id": "1",
+            "name": "Design"
+        },
+        {
+            "id": "3",
+            "name": "Interaction Design"
+        },
+        {
+            "id": "2",
+            "name": "Development"
+        },
+        {
+            "id": "4",
+            "name": "Graphic Design"
+        },
+        {
+            "id": "5",
+            "name": "Mobile"
+        },
+        {
+            "id": "6",
+            "name": "Management"
+        }]
+    },
+    "stat": "ok"
+}
