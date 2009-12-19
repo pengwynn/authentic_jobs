@@ -1,6 +1,6 @@
 # Authentic Jobs
 
-Find your next gig from the console! This is a Ruby wrapper for the AuthenticJobs.com API.
+Find your next gig from the console! This is a Ruby wrapper for the [AuthenticJobs.com API](http://www.authenticjobs.com/api/documentation/).
 
 ## Installation
 
