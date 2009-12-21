@@ -28,6 +28,13 @@ Find your next gig from the console! This is a Ruby wrapper for the [AuthenticJo
 
     categories = client.categories
     
+
+The categories, types, and locations methods are all cached after the first call. To refresh, simply add a bang:
+
+    client.categories!
+    client.types!
+    client.locations!
+    
 All calls return a [Hashie::Mash](http://github.com/intridea/hashie) and support dot-notation.
 
 ## Note on Patches/Pull Requests

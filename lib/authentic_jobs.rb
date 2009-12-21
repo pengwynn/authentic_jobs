@@ -30,13 +30,22 @@ class AuthenticJobs
     self.api_key = api_key
   end
   
-  def companies
+  def companies!
     mashup(self.class.get("/", :query => method_params('aj.jobs.getCompanies'))).companies.company
   end
   
-  def locations
+  def companies
+    @companies ||= companies!
+  end
+  
+  def locations!
     mashup(self.class.get("/", :query => method_params('aj.jobs.getLocations'))).locations.location
   end
+  
+  def locations
+    @locations ||= locations!
+  end
+  
   
   # category: The id of a job category to limit to. See aj.categories.getList
   # type: The id of a job type to limit to. See aj.types.getList
@@ -50,12 +59,20 @@ class AuthenticJobs
     mashup(self.class.get("/", :query => method_params('aj.jobs.search', options))).listings.listing
   end
   
-  def types
+  def types!
     mashup(self.class.get("/", :query => method_params('aj.types.getList'))).types['type']
   end
   
-  def categories
+  def types
+    @types ||= types!
+  end
+  
+  def categories!
     mashup(self.class.get("/", :query => method_params('aj.categories.getList'))).categories.category
+  end
+  
+  def categories
+    @categories ||= categories!
   end
 
   
