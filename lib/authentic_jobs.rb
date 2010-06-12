@@ -19,6 +19,11 @@ class AuthenticJobs
   base_uri 'www.authenticjobs.com/api'
   format :json
   
+  # API key for all requests
+  #
+  # @see http://www.authenticjobs.com/api/ Request your API key here
+  # @param [String] api_key your API key
+  # @return [String] API key
   attr_accessor :api_key
   
   def initialize(api_key)
