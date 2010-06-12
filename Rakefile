@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Ruby wrapper for the Authenic Jobs API}
     gem.description = %Q{Ruby wrapper for the Authentic Jobs API}
     gem.email = "wynn.netherland@gmail.com"
-    gem.homepage = "http://github.com/pengwynn/authentic_jobs"
+    gem.homepage = "http://wynnnetherland.com/projects/authentic_jobs/"
     gem.authors = ["Wynn Netherland"]
 
     gem.add_dependency('hashie', '~> 0.2.0')
