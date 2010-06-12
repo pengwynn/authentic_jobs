@@ -1,9 +1,4 @@
-require 'rubygems'
-
-gem 'hashie', '~> 0.1.3'
 require 'hashie'
-
-gem 'httparty', '~> 0.4.5'
 require 'httparty'
 
 directory = File.expand_path(File.dirname(__FILE__))
@@ -30,47 +25,73 @@ class AuthenticJobs
     self.api_key = api_key
   end
   
+  # List of companies that are currently advertising positions, explicitly refreshing cache
+  #
+  # @return [Array<Hashie::Mash>] list of companies
   def companies!
     mashup(self.class.get("/", :query => method_params('aj.jobs.getCompanies'))).companies.company
   end
   
+  # List of companies that are currently advertising positions
+  #
+  # @return [Array<Hashie::Mash>] list of companies
   def companies
     @companies ||= companies!
   end
   
+  
+  # List locations for companies that are currently advertising positions, explicitly refreshing cache
+  #
+  # @return [Array<Hashie::Mash>] list of locations
   def locations!
     mashup(self.class.get("/", :query => method_params('aj.jobs.getLocations'))).locations.location
   end
   
+  # List locations for companies that are currently advertising positions
+  #
+  # @return [Array<Hashie::Mash>] list of locations
   def locations
     @locations ||= locations!
   end
   
-  
-  # category: The id of a job category to limit to. See aj.categories.getList
-  # type: The id of a job type to limit to. See aj.types.getList
-  # sort: Accepted values are: date-posted-desc (the default) and date-posted-asc
-  # company: Free-text matching against company names. Suggested values are the ids from aj.jobs.getCompanies
-  # location: Free-text matching against company location names. Suggested values are the ids from aj.jobs.getLocation
-  # keywords: Keywords to look for in the title or description of the job posting. Separate multiple keywords with commas. Multiple keywords will be treated as an OR
-  # page: The page of listings to return. Defaults to 1.
-  # perpage: The number of listings per page. The default value is 10. The maximum value is 100.
+  # List current positions
+  # 
+  # @option options [String] :category The id of a job category to limit to. See aj.categories.getList
+  # @option options [String] :type The id of a job type to limit to. See aj.types.getList
+  # @option options [String] :sort ('date-posted-desc') Accepted values are 'date-posted-desc' and 'date-posted-asc'
+  # @option options [String] :company Free-text matching against company names. Suggested values are the ids from aj.jobs.getCompanies
+  # @option options [String] :location Free-text matching against company location names. Suggested values are the ids from aj.jobs.getLocation
+  # @option options [String] :keywords Keywords to look for in the title or description of the job posting. Separate multiple keywords with commas. Multiple keywords will be treated as an OR
+  # @option options [Integer] :page (1) The page of listings to return. Defaults to 1.
+  # @option options [Integer] :perpage (1) The number of listings per page. The default value is 10. The maximum value is 100.
   def search(options={})
     mashup(self.class.get("/", :query => method_params('aj.jobs.search', options))).listings.listing
   end
   
+  # List supported job types, explicitly refreshing cache
+  #
+  # @return [Array<Hashie::Mash>] list of types
   def types!
     mashup(self.class.get("/", :query => method_params('aj.types.getList'))).types['type']
   end
   
+  # List supported job types
+  #
+  # @return [Array<Hashie::Mash>] list of types
   def types
     @types ||= types!
   end
   
+  # List supported job categories, explicitly refreshing cache
+  #
+  # @return [Array<Hashie::Mash>] list of categories
   def categories!
     mashup(self.class.get("/", :query => method_params('aj.categories.getList'))).categories.category
   end
   
+  # List supported job categories
+  #
+  # @return [Array<Hashie::Mash>] list of categories
   def categories
     @categories ||= categories!
   end

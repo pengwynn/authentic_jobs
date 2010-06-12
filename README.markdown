@@ -8,23 +8,23 @@ Find your next gig from the console! This is a Ruby wrapper for the [AuthenticJo
     
 ## Usage
 
-### Create a client with your API key
+Create a client with your API key
 
     client = AuthenticJobs.new('OU812') # <-- Get your key at http://www.authenticjobs.com/api/
 
-### Search for jobs
+Search for jobs
 
     jobs = client.search(:location => 'austintxus', :keywords => 'ruby')
     
-### List all companies with current listings
+List all companies with current listings
 
     companies = client.companies
     
-### List all job types
+List all job types
 
     types = client.types
     
-### List all job categories
+List all job categories
 
     categories = client.categories
     
